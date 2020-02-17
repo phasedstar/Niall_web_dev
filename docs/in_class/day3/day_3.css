@@ -1,0 +1,112 @@
+/* my css stylesheet (aka notes)*/
+
+
+p{ 
+    background-color: lightsalmon;
+    width: 50%;
+    height: 300px
+}
+
+
+a{
+    background-color: black;
+    color:gold;
+    width: 70%;
+    height: 100px
+
+}
+
+div{
+    display: inline-block;
+    width: 50%;
+    height: 400px;
+    background-color:lightblue;
+}
+
+}
+
+
+    #green-box{
+
+        position: absolute;
+        top:30px;
+        left:100px;
+        bottom: 20px;
+        display:block;
+        background-color:green;
+        width:200px;
+        height: 200px;
+}
+{}
+
+
+#red-box{
+
+    position: relative;
+    top:30px;
+    left:100px;
+    bottom: 20px;
+    display:block;
+    background-color:red;
+    width:200px;
+    height: 200px;
+}
+{
+
+
+#blue-box{
+
+    position: fixed;
+    top:20px;
+    left:20px;
+    bottom: 20px;
+    background-color:blue;
+    width:200px;
+    height: 200px;
+}
+{
+
+
+#orange-box{
+
+    position: sticky;
+    top:20px;
+    left:20px;
+    bottom: 20px;
+    display:block;
+    background-color: orange;
+    width:200px;
+    height: 200px;
+}
+
+}
+    .box {
+        width: 100px;
+        height: 100px;
+        color: white;
+        font-family: sans-serif;
+        background-color: darkslategrey;
+
+        padding: 100px;
+        border:3px solid yellow;
+        margin:20px;
+
+        left:20px;
+        right:20px;
+    }
+
+
+.box-small {
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-family: sans-serif;
+    background-color: darkslategrey;
+
+    padding: 100px;
+    border:3px solid yellow;
+    margin:20px;
+
+    left:20px;
+    right:20px;
+}
