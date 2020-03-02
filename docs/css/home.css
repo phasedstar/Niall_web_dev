@@ -1,36 +1,65 @@
-*{
-    padding: 0;
-    margin: 0;     
-}
-
 body{
-    background-color:black;
+    background-color: black;
 }
 h1{
-    color: rgb(127, 255, 0);
-    font-family: "Bungee Outline" ;
-    font-size: 70px;
     text-align:center;
-    margin: 10px;
-}
-}
- .title{
-        width: 200px;
-        height: 200px;
-        border: 3px solid brown;
-        text-align: center;
-        font-size: 2em;
-        margin: 10px;
     
-    }
+}
+#top-menu{
+    background-color: rgb(27, 31, 25);
+    padding: 10px;
+}
+.main-menu-item{
+    list-style: none;
+}
 
 li{
-        color: cadetblue;
-        font-size: larger;
-        width: 100px;
-        height: 50px;
-        text-align: center;
-        top: center;
-        border: 3px solid rgb(255, 0, 106);
-       
+    text-align: center;
+    margin: 10px;
+    font-size: x-large;
+    font-family:"Baloo Bhaijaan";
+    
+}
+a{
+    color: hotpink;
+}
+a:hover{
+    color: red;
+    background-color: lawngreen;
+}
+.main-menu-item >a{
+    display: inline-block;
+    width: 250px;
+    padding: 5px;
+    text-decoration:none;
+    background-color: rgb(225, 0, 255);
+    color: blue;
+}
+.main-menu-item>a:hover{
+    color:royalblue;
+    background-color: rgb(170, 226, 15);
+}
+.site-title{
+    text-decoration: none;
+    color: rgb(81, 255, 0);
+    font-family: "Bungee Outline" ;
+    font-size: 70px;
+    margin: 10px;
+}
+
+.page-title{
+    font-size: 45px;
+    color: rgb(255, 153, 0);
+    font-family: "Sedgwick Ave Display";
+    text-align: center;
+}
+.left{
+    text-align: left;
+
+}
+p{
+    color: rgb(255, 255, 255);
+    font-family: "Baloo Bhaijaan";
+    font-size: 25px;
+    text-align: center;
 }
