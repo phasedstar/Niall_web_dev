@@ -21,11 +21,13 @@ li{
     
 }
 a{
-    color: hotpink;
+    color: rgb(250, 61, 156);
+    padding: 4px;
+    margin: 3px;
 }
 a:hover{
-    color: red;
-    background-color: lawngreen;
+    color: rgb(38, 0, 255);
+    background-color: rgb(252, 0, 168);
 }
 .main-menu-item >a{
     display: inline-block;
