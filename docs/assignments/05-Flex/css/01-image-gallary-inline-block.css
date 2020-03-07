@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: yellow;
+}
+h1{
+    text-align: center;
+    color: hotpink;
+
+}
+
+.responsive{
+    max-width: 400px;
+    height: auto;
+    display: inline-block;
+
+}
