@@ -9,6 +9,10 @@ h1{
     text-align: center;
     color: rgb(251, 255, 0);
 }
-.responsive{
-    width: 600px;
+img{
+    display: flex;
+    width: 60%;
+    height: auto;
+    text-align: center;
 }
+
