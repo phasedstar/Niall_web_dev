@@ -13,10 +13,10 @@ h2{
 
 div {
     width: 150px;
-    height: 200px;
+    height: 100px;
     text-align: center;
     font-size: 2em;
-    margin: 10px;
+    margin: 5px;
     float: left;
     text-align: center;
 }
