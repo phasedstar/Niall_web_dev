@@ -4,10 +4,87 @@
 }
 body{
     background-color: rgb(247, 226, 41);
+    text-align: center;
 }
 
-.rectangle {
-    height: 50px;
-    width: 100px;
-    background-color: #555;
+.Smartphone{
+    border-style: solid;
+    height: 450px;
+    width: 250px;
+    border-color: purple;
+    display: flex;
+    flex-wrap: nowrap;    
+    flex-direction: column;
+    border-radius:20px;
+    margin: auto;
+    background-color: rgb(250, 250, 66);
+}
+.bar-one {
+    border-style: solid;
+    height: 60px;
+    width: 220px;
+    border-color: 
+    plum;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius:15px;
+    margin: auto;
+}
+
+.bar-two {
+    border-style: solid;
+    height: 60px;
+    width: 220px;
+    border-color: plum;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius:15px;
+    margin: auto;
+}
+.bar-three {
+    border-style: solid;
+    height: 60px;
+    width: 220px;
+    border-color: plum;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius:15px;
+    margin: auto;
+}
+.bar-four {
+    border-style: solid;
+    height: 60px;
+    width: 220px;
+    border-color: plum;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius:15px;
+    margin: auto;
+}
+.bar-five {
+    border-style: solid;
+    height: 60px;
+    width: 220px;
+    border-color: plum;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius:15px;
+    margin: auto;
+}
+.app-1{
+    border-style: solid;
+    height: 40px;
+    width: 40px;
+    border-color: palevioletred;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 10px;
+    background-color: rgb(241, 171, 243);
+    
 }

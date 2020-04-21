@@ -12,32 +12,48 @@ h2{
 }
 
 div {
-    width: 150px;
+    width: 170px;
     height: 100px;
     text-align: center;
     font-size: 2em;
     margin: 5px;
     float: left;
     text-align: center;
+    
 }
 .one{
     background-color: rgb(203, 233, 34);
+    border-style: dotted;
+    border-color: rgb(20, 173, 20);
+    
 }
 .two{
     background-color: rgb(203, 233, 34);
+    border-style: dotted;
+    border-color: rgb(20, 173, 20);
 }
 .three{
         background-color: rgb(203, 233, 34);
+        border-style: dotted;
+        border-color: rgb(20, 173, 20);
 }
 .four{
     background-color: rgb(203, 233, 34);
+    border-style: dotted;
+    border-color: rgb(20, 173, 20);
 }
 .five{
     background-color: rgb(203, 233, 34);
+    border-style: dotted;
+    border-color: rgb(20, 173, 20);
 }
 .six{
     background-color: rgb(203, 233, 34);
+    border-style: dotted;
+    border-color: rgb(20, 173, 20);
 }
 .seven{
     background-color: rgb(203, 233, 34);
+    border-style: dotted;
+    border-color: rgb(20, 173, 20);
 }
