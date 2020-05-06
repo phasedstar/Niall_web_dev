@@ -1,7 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    animation: pulse infinite;
 }
 h1{
     text-align: center;
@@ -14,31 +13,40 @@ h1{
     margin: auto;
     display: flex;
     flex-wrap: nowrap;
-    position: relative;
-    padding: 20px 40px;
+    padding: 20px 10px;
     border-radius: 10px;
     box-sizing: border-box;
     box-shadow: 0 10px 20px rgba(12, 12, 12, 0.5);
 }
 .progress-bar{
-    width: 506px;
+    width: 90%;
     height: 26px;
     background-color: rgb(196, 192, 194);
     border-radius: 13px;
     padding: 3px;
-    display: flex;
     margin: auto;
+    display: flex;
+    align-items: center;
 }
 .progress{
-    margin: auto;
-    display: flex;
-    flex-wrap: nowrap;
-    margin: auto;
-    width: 500px;
+    /* margin: auto; */
+    width: 0px;
     height: 20px;
     border-radius: 10px;
     background-color: rgb(12, 12, 12);
+    animation-name: loading;
+    animation-duration: 3s;
 }
+
+@keyframes loading {
+
+    0% {  width: 0;  }
+    100% { width: 100%; }
+}
+
+
+
+
 .button{
     font-weight: bolder; 
     margin: auto;
