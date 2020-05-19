@@ -33,59 +33,6 @@ body{
     margin: auto;
 }
 
-.bar-one {
-    border-style: solid;
-    height: 60px;
-    width: 220px;
-    border-color: 
-    plum;
-    display: flex;
-    flex-wrap: wrap;
-    /* flex-direction: row; */
-    border-radius:15px;
-    margin: auto;
-}
-
-.bar-two {
-    border-style: solid;
-    height: 60px;
-    width: 220px;
-    border-color: plum;
-    display: flex;
-    flex-wrap: wrap;
-    border-radius:15px;
-    margin: auto;
-}
-.bar-three {
-    border-style: solid;
-    height: 60px;
-    width: 220px;
-    border-color: plum;
-    display: flex;
-    flex-wrap: wrap;
-    border-radius:15px;
-    margin: auto;
-}
-.bar-four {
-    border-style: solid;
-    height: 60px;
-    width: 220px;
-    border-color: plum;
-    display: flex;
-    flex-wrap: wrap;
-    border-radius:15px;
-    margin: auto;
-}
-.bar-five {
-    border-style: solid;
-    height: 60px;
-    width: 220px;
-    border-color: plum;
-    display: flex;
-    flex-wrap: wrap;
-    border-radius:15px;
-    margin: auto;
-}
 
 
 .app{
@@ -100,3 +47,8 @@ body{
     background-color: rgb(241, 171, 243);
     margin: auto;
 }   
+
+.app:hover{
+    animation: rubberBand;
+    animation-duration: 1s;
+}
